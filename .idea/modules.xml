@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/petting.iml" filepath="$PROJECT_DIR$/.idea/petting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-abuse-service/petting-abuse-service.iml" filepath="$PROJECT_DIR$/petting-abuse-service/petting-abuse-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-admin-server/petting-admin-server.iml" filepath="$PROJECT_DIR$/petting-admin-server/petting-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/petting-album-service/petting-album-service.iml" filepath="$PROJECT_DIR$/petting-album-service/petting-album-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/petting-blog-service/petting-blog-service.iml" filepath="$PROJECT_DIR$/petting-blog-service/petting-blog-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/petting-channel-service/petting-channel-service.iml" filepath="$PROJECT_DIR$/petting-channel-service/petting-channel-service.iml" />

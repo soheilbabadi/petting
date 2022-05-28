@@ -23,6 +23,8 @@
         <option value="$PROJECT_DIR$/petting-delegation-service/pom.xml" />
         <option value="$PROJECT_DIR$/petting-friendship-service/pom.xml" />
         <option value="$PROJECT_DIR$/petting-notification-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-abuse-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-admin-server/pom.xml" />
       </list>
     </option>
   </component>

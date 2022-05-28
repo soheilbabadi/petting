@@ -17,18 +17,22 @@
         <module name="petting-payment-service" />
         <module name="petting-shop-service" />
         <module name="petting-group-service" />
+        <module name="petting-admin-server" />
         <module name="petting-walking-service" />
         <module name="petting-friendship-service" />
         <module name="petting-album-service" />
         <module name="petting-events-service" />
         <module name="petting-newsfeed-service" />
         <module name="petting-wall-service" />
+        <module name="petting-abuse-service" />
         <module name="petting-person-service" />
         <module name="petting-notification-service" />
         <module name="petting-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="petting-abuse-service" target="17" />
+      <module name="petting-admin-server" target="17" />
       <module name="petting-album-service" target="17" />
       <module name="petting-blog-service" target="17" />
       <module name="petting-channel-service" target="17" />
@@ -50,5 +54,27 @@
       <module name="petting-walking-service" target="17" />
       <module name="petting-wall-service" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="petting-abuse-service" options="-parameters" />
+      <module name="petting-album-service" options="-parameters" />
+      <module name="petting-blog-service" options="-parameters" />
+      <module name="petting-channel-service" options="-parameters" />
+      <module name="petting-chat-service" options="-parameters" />
+      <module name="petting-delegation-service" options="-parameters" />
+      <module name="petting-events-service" options="-parameters" />
+      <module name="petting-friendship-service" options="-parameters" />
+      <module name="petting-group-service" options="-parameters" />
+      <module name="petting-newsfeed-service" options="-parameters" />
+      <module name="petting-notification-service" options="-parameters" />
+      <module name="petting-payment-service" options="-parameters" />
+      <module name="petting-person-service" options="-parameters" />
+      <module name="petting-shop-service" options="-parameters" />
+      <module name="petting-ticket-service" options="-parameters" />
+      <module name="petting-vet-service" options="-parameters" />
+      <module name="petting-walking-service" options="-parameters" />
+      <module name="petting-wall-service" options="-parameters" />
+    </option>
   </component>
 </project>
