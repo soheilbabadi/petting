@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/petting.iml" filepath="$PROJECT_DIR$/.idea/petting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-album-service/petting-album-service.iml" filepath="$PROJECT_DIR$/petting-album-service/petting-album-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-blog-service/petting-blog-service.iml" filepath="$PROJECT_DIR$/petting-blog-service/petting-blog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-channel-service/petting-channel-service.iml" filepath="$PROJECT_DIR$/petting-channel-service/petting-channel-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-chat-service/petting-chat-service.iml" filepath="$PROJECT_DIR$/petting-chat-service/petting-chat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-config-server/petting-config-server.iml" filepath="$PROJECT_DIR$/petting-config-server/petting-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-delegation-service/petting-delegation-service.iml" filepath="$PROJECT_DIR$/petting-delegation-service/petting-delegation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-discovery-server/petting-discovery-server.iml" filepath="$PROJECT_DIR$/petting-discovery-server/petting-discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-events-service/petting-events-service.iml" filepath="$PROJECT_DIR$/petting-events-service/petting-events-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-friendship-service/petting-friendship-service.iml" filepath="$PROJECT_DIR$/petting-friendship-service/petting-friendship-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-gateway-server/petting-gateway-server.iml" filepath="$PROJECT_DIR$/petting-gateway-server/petting-gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-group-service/petting-group-service.iml" filepath="$PROJECT_DIR$/petting-group-service/petting-group-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-newsfeed-service/petting-newsfeed-service.iml" filepath="$PROJECT_DIR$/petting-newsfeed-service/petting-newsfeed-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-notification-service/petting-notification-service.iml" filepath="$PROJECT_DIR$/petting-notification-service/petting-notification-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-payment-service/petting-payment-service.iml" filepath="$PROJECT_DIR$/petting-payment-service/petting-payment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-person-service/petting-person-service.iml" filepath="$PROJECT_DIR$/petting-person-service/petting-person-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-shop-service/petting-shop-service.iml" filepath="$PROJECT_DIR$/petting-shop-service/petting-shop-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-ticket-service/petting-ticket-service.iml" filepath="$PROJECT_DIR$/petting-ticket-service/petting-ticket-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-vet-service/petting-vet-service.iml" filepath="$PROJECT_DIR$/petting-vet-service/petting-vet-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-walking-service/petting-walking-service.iml" filepath="$PROJECT_DIR$/petting-walking-service/petting-walking-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/petting-wall-service/petting-wall-service.iml" filepath="$PROJECT_DIR$/petting-wall-service/petting-wall-service.iml" />
+    </modules>
+  </component>
+</project>

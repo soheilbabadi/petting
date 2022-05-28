@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/petting-vet-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-blog-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-chat-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-shop-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-wall-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-album-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-group-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-events-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-person-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-ticket-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-channel-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-payment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-walking-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-discovery-server/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-newsfeed-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-delegation-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-friendship-service/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-notification-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK" />
+</project>

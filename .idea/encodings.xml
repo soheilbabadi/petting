@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/petting-album-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-album-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-blog-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-blog-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-channel-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-channel-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-chat-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-chat-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-delegation-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-delegation-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-discovery-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-discovery-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-events-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-events-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-friendship-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-friendship-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-gateway-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-group-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-group-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-newsfeed-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-newsfeed-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-notification-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-notification-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-payment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-payment-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-person-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-person-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-shop-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-shop-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-ticket-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-ticket-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-vet-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-vet-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-walking-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-walking-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-wall-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/petting-wall-service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

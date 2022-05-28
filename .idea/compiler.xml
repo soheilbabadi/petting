@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="petting-discovery-server" />
+        <module name="petting-ticket-service" />
+        <module name="petting-gateway-server" />
+        <module name="petting-chat-service" />
+        <module name="petting-blog-service" />
+        <module name="petting-delegation-service" />
+        <module name="petting-channel-service" />
+        <module name="petting-vet-service" />
+        <module name="petting-payment-service" />
+        <module name="petting-shop-service" />
+        <module name="petting-group-service" />
+        <module name="petting-walking-service" />
+        <module name="petting-friendship-service" />
+        <module name="petting-album-service" />
+        <module name="petting-events-service" />
+        <module name="petting-newsfeed-service" />
+        <module name="petting-wall-service" />
+        <module name="petting-person-service" />
+        <module name="petting-notification-service" />
+        <module name="petting-config-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="petting-album-service" target="17" />
+      <module name="petting-blog-service" target="17" />
+      <module name="petting-channel-service" target="17" />
+      <module name="petting-chat-service" target="17" />
+      <module name="petting-config-server" target="17" />
+      <module name="petting-delegation-service" target="17" />
+      <module name="petting-discovery-server" target="17" />
+      <module name="petting-events-service" target="17" />
+      <module name="petting-friendship-service" target="17" />
+      <module name="petting-gateway-server" target="17" />
+      <module name="petting-group-service" target="17" />
+      <module name="petting-newsfeed-service" target="17" />
+      <module name="petting-notification-service" target="17" />
+      <module name="petting-payment-service" target="17" />
+      <module name="petting-person-service" target="17" />
+      <module name="petting-shop-service" target="17" />
+      <module name="petting-ticket-service" target="17" />
+      <module name="petting-vet-service" target="17" />
+      <module name="petting-walking-service" target="17" />
+      <module name="petting-wall-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
