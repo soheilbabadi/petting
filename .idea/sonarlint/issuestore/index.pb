@@ -27,8 +27,6 @@ Q
 !petting-events-service/Dockerfile,8\0\8013b3c385eca5af6d5550d59d2bb4d92822a8e2
 U
 %petting-friendship-service/Dockerfile,c\b\cb2470ccb6cfd4acef8dee535b87e91606b54128
-Q
-!petting-gateway-server/Dockerfile,f\7\f7998237f66f0800ae0cc3b4842f74e4747508fb
 P
  petting-group-service/Dockerfile,b\8\b82b0659de8193d9fda6e08aa97212c2557a6f95
 S
@@ -113,29 +111,9 @@ L
 petting-shop-service/pom.xml,a\b\ab875a5832f687c1d87d215f64271c3d573295c7
 K
 petting-vet-service/pom.xml,9\2\921c3faeaa8a5415e841dfa1fec3bac176f68911
-T
-$petting-notification-service/pom.xml,b\2\b2a6a79ec917d2ed49414745a71144b04f628589
 M
 petting-group-service/pom.xml,9\f\9fece56d187d10b65ddff20eca6ced8dd881da8c
 N
 petting-ticket-service/pom.xml,9\b\9b123425687d348fc6b2ee9627016cfdcca18a78
 P
  petting-newsfeed-service/pom.xml,7\c\7cfd649f6d8b7552c0d3113c9c69799388f74a16
-M
-petting-abuse-service/pom.xml,5\3\5387c7810127b6ee3c0c35f95f4e034408bccb58
-M
-petting-album-service/pom.xml,b\5\b52e99057be4f7efdc2a2d95bb6c773055e10040
-O
-petting-payment-service/pom.xml,6\6\66eb9070c7fa03c56f0a94b188a570ac9a9eb1af
-R
-"petting-friendship-service/pom.xml,e\7\e7f2c2a6511dbfb996e0a1e549aecef2eb12d716
-L
-petting-admin-server/pom.xml,3\f\3f7b6864c98209235b3003ac84fc52892b18a009
-L
-petting-blog-service/pom.xml,1\e\1e0c022cc1b3a6c344b91cacb09e82d0d1810607
-O
-petting-shop-service/Dockerfile,b\5\b56115b71a966af97bfcf423508e64437c57bfc5
-P
- petting-discovery-server/pom.xml,2\3\238abcf6130d5781b57187a0c7280f51af28b7c1
-N
-petting-gateway-server/pom.xml,6\d\6da61e1c71380ec19dce556114b1c58c2b812fe1
