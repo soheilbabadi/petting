@@ -1,2 +1,2 @@
 
-docker build -t sbabadi/petty-abuse-service-docker .
+docker build -t sbabadi/petting-abuse-service-docker .

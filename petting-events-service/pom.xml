@@ -220,7 +220,7 @@
 				<version>3.2.1</version>
 				<configuration>
 					<to>
-						<image>docker.io/sbabadi/{$artifactId}</image>
+						<image>docker.io/sbabadi/petting_{$artifactId}</image>
 					</to>
 				</configuration>
 			</plugin>

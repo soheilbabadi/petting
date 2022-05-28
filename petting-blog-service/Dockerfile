@@ -1,4 +1,4 @@
 FROM openjdk-17-jre-alpine
 ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} petty-blog-service.jar
-ENTRYPOINT ["java","-jar","/petty-blog-service.jar"]
+COPY ${JAR_FILE} petting_blog_service.jar
+ENTRYPOINT ["java","-jar","/petting-blog_service.jar"]

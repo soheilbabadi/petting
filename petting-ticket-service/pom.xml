@@ -218,9 +218,17 @@
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>jib-maven-plugin</artifactId>
 				<version>3.2.1</version>
+
 				<configuration>
+					<allowInsecureRegistries>true</allowInsecureRegistries>
+
 					<to>
-						<image>docker.io/sbabadi/{$artifactId}</image>
+						<auth>
+							<username>sbabadi</username>
+							<password>Lida1399@@</password>
+						</auth>
+
+						<image>docker.io/sbabadi/petting_ticket_service</image>
 					</to>
 				</configuration>
 			</plugin>

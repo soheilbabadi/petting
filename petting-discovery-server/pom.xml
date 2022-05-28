@@ -72,4 +72,40 @@
 		</repository>
 	</repositories>
 
+
+
+
+
+
+	<build>
+		<finalName>{$artifactId}</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.2.1</version>
+
+				<configuration>
+					<allowInsecureRegistries>true</allowInsecureRegistries>
+
+					<to>
+						<auth>
+							<username>sbabadi</username>
+							<password>Lida1399@@</password>
+						</auth>
+
+						<image>docker.io/sbabadi/petting_discovery_server</image>
+					</to>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
+
+

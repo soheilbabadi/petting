@@ -12,7 +12,6 @@
         <option value="$PROJECT_DIR$/petting-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/petting-group-service/pom.xml" />
         <option value="$PROJECT_DIR$/petting-events-service/pom.xml" />
-        <option value="$PROJECT_DIR$/petting-gateway-server/pom.xml" />
         <option value="$PROJECT_DIR$/petting-person-service/pom.xml" />
         <option value="$PROJECT_DIR$/petting-ticket-service/pom.xml" />
         <option value="$PROJECT_DIR$/petting-channel-service/pom.xml" />
@@ -25,8 +24,10 @@
         <option value="$PROJECT_DIR$/petting-notification-service/pom.xml" />
         <option value="$PROJECT_DIR$/petting-abuse-service/pom.xml" />
         <option value="$PROJECT_DIR$/petting-admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-notification-service/petting-gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/petting-gateway-server/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17 (2)" project-jdk-type="JavaSDK" />
 </project>
