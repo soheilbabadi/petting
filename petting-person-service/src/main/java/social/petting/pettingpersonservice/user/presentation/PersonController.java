@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pet.barker.pbpersonservice.user.application.PersonService;
-import pet.barker.pbpersonservice.user.domain.Person;
-import pet.barker.pbpersonservice.user.domain.dto.PersonCreateDto;
-import pet.barker.pbpersonservice.user.domain.dto.PersonUpdateDto;
+import social.petting.pettingpersonservice.user.application.PersonService;
+import social.petting.pettingpersonservice.user.domain.Person;
+import social.petting.pettingpersonservice.user.domain.dto.PersonCreateDto;
+import social.petting.pettingpersonservice.user.domain.dto.PersonUpdateDto;
 
 @RestController("personController")
 @RequestMapping(path = "/api/v1/person", produces = "application/json"
@@ -36,9 +36,9 @@ public class PersonController {
 
     @DeleteMapping("/{username}")
     public void deletePerson(@PathVariable("username") String username) {
-        personService. (username);
+        personService.deletePerson(username);
     }
 }
 
 
-}
+

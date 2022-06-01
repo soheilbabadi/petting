@@ -3,15 +3,15 @@ package social.petting.pettingpersonservice.user.application;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pet.barker.pbpersonservice.common.Infra.LookupRepository;
-import pet.barker.pbpersonservice.common.application.Utils;
-import pet.barker.pbpersonservice.common.exception.ErrorMessages;
-import pet.barker.pbpersonservice.common.exception.UserException;
-import pet.barker.pbpersonservice.user.domain.LoginTry;
-import pet.barker.pbpersonservice.user.domain.Person;
-import pet.barker.pbpersonservice.user.domain.dto.*;
-import pet.barker.pbpersonservice.user.infra.LoginTryRepository;
-import pet.barker.pbpersonservice.user.infra.PersonRepository;
+import social.petting.pettingpersonservice.common.Infra.LookupRepository;
+import social.petting.pettingpersonservice.common.application.Utils;
+import social.petting.pettingpersonservice.common.exception.ErrorMessages;
+import social.petting.pettingpersonservice.common.exception.UserException;
+import social.petting.pettingpersonservice.user.domain.LoginTry;
+import social.petting.pettingpersonservice.user.domain.Person;
+import social.petting.pettingpersonservice.user.domain.dto.*;
+import social.petting.pettingpersonservice.user.infra.LoginTryRepository;
+import social.petting.pettingpersonservice.user.infra.PersonRepository;
 
 @Service
 public class PersonServiceImp implements PersonService {

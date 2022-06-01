@@ -2,7 +2,7 @@ package social.petting.pettingpersonservice.common.Infra;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import pet.barker.pbpersonservice.common.domain.Lookup;
+import social.petting.pettingpersonservice.common.domain.Lookup;
 
 import java.util.List;
 

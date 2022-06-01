@@ -1,7 +1,7 @@
 package social.petting.pettingpersonservice.user.application;
 
-import pet.barker.pbpersonservice.user.domain.Person;
-import pet.barker.pbpersonservice.user.domain.dto.*;
+import social.petting.pettingpersonservice.user.domain.Person;
+import social.petting.pettingpersonservice.user.domain.dto.*;
 
 public interface PersonService {
     long getPersonCount();

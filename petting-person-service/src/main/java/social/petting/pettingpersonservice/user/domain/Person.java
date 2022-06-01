@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import pet.barker.pbpersonservice.common.domain.Lookup;
+import social.petting.pettingpersonservice.common.domain.Lookup;
 
 import javax.persistence.*;
 import java.io.Serial;

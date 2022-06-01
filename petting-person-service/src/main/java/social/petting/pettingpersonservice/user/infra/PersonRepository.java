@@ -2,7 +2,7 @@ package social.petting.pettingpersonservice.user.infra;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
-import pet.barker.pbpersonservice.user.domain.Person;
+import social.petting.pettingpersonservice.user.domain.Person;
 
 import java.util.Optional;
 

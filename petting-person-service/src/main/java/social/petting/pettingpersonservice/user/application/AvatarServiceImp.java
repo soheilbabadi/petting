@@ -3,11 +3,11 @@ package social.petting.pettingpersonservice.user.application;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pet.barker.pbpersonservice.common.application.Utils;
-import pet.barker.pbpersonservice.user.domain.Avatar;
-import pet.barker.pbpersonservice.user.domain.dto.AvatarProfileDto;
-import pet.barker.pbpersonservice.user.domain.dto.AvatarUpdateDto;
-import pet.barker.pbpersonservice.user.infra.AvatarRepository;
+import social.petting.pettingpersonservice.common.application.Utils;
+import social.petting.pettingpersonservice.user.domain.Avatar;
+import social.petting.pettingpersonservice.user.domain.dto.AvatarProfileDto;
+import social.petting.pettingpersonservice.user.domain.dto.AvatarUpdateDto;
+import social.petting.pettingpersonservice.user.infra.AvatarRepository;
 
 import java.io.IOException;
 import java.util.Objects;

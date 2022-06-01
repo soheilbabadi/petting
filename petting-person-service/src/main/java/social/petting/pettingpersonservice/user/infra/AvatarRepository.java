@@ -2,7 +2,8 @@ package social.petting.pettingpersonservice.user.infra;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import pet.barker.pbpersonservice.user.domain.Avatar;
+import social.petting.pettingpersonservice.user.domain.Avatar;
+
 
 import java.util.Optional;
 

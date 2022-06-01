@@ -3,7 +3,7 @@ package social.petting.pettingpersonservice.user.infra;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import pet.barker.pbpersonservice.user.domain.LoginTry;
+import social.petting.pettingpersonservice.user.domain.LoginTry;
 
 import java.time.LocalDateTime;
 import java.util.Optional;

@@ -1,7 +1,8 @@
 package social.petting.pettingpersonservice.user.application;
 
-import pet.barker.pbpersonservice.user.domain.dto.AvatarProfileDto;
-import pet.barker.pbpersonservice.user.domain.dto.AvatarUpdateDto;
+
+import social.petting.pettingpersonservice.user.domain.dto.AvatarProfileDto;
+import social.petting.pettingpersonservice.user.domain.dto.AvatarUpdateDto;
 
 import java.io.IOException;
 
