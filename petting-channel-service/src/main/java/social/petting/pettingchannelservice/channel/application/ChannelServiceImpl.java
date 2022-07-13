@@ -9,6 +9,7 @@ import social.petting.pettingchannelservice.channel.domain.ChannelDto;
 import social.petting.pettingchannelservice.channel.infra.ChannelRepository;
 
 import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,9 +37,9 @@ public class ChannelServiceImpl implements ChannelService {
     public long createChannel(ChannelDto channelDto) {
         var channel = new Channel();
         BeanUtils.copyProperties(channelDto, channel);
-        channel.setCeatedOn(LocalDateTime.now());
-        channel.setUpdatedOn(LocalDateTime.now());
-        channel.setDeletedOn(null);
+        channel.setCreatedOn(LocalDateTime.now(ZoneOffset.UTC));
+        channel.setUpdatedOn(LocalDateTime.now(ZoneOffset.UTC));
+
         channelRepository.save(channel);
         return channel.getId();
     }
@@ -48,18 +49,15 @@ public class ChannelServiceImpl implements ChannelService {
         var channel = channelRepository.findById(channelDto.getId())
                 .orElseThrow(() -> new RuntimeException("Channel not found"));
         BeanUtils.copyProperties(channelDto, channel);
-        channel.setUpdatedOn(LocalDateTime.now());
+        channel.setUpdatedOn(LocalDateTime.now(ZoneOffset.UTC));
         channelRepository.save(channel);
         return channel.getId();
     }
 
     @Override
     public long deleteChannel(long id) {
-        var channel = channelRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Channel not found"));
-        channel.setDeletedOn(LocalDateTime.now());
-        channelRepository.save(channel);
-        return channel.getId();
+        channelRepository.deleteById(id);
+        return 1L;
     }
 
     @Override
