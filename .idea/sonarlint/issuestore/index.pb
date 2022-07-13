@@ -1,6 +1,4 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 B
 docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
 —
@@ -139,3 +137,5 @@ T
 $petting-notification-service/pom.xml,b\2\b2a6a79ec917d2ed49414745a71144b04f628589
 R
 "petting-friendship-service/pom.xml,e\7\e7f2c2a6511dbfb996e0a1e549aecef2eb12d716
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
