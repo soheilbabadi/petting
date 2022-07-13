@@ -19,21 +19,17 @@ public class Post implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 9066621312570212031L;
+    @ManyToOne(fetch = FetchType.LAZY, optional = false, cascade = CascadeType.ALL, targetEntity = Channel.class)
+    public Channel channel;
+    @OneToOne(fetch = FetchType.LAZY, optional = false, cascade = CascadeType.ALL, targetEntity = Member.class)
+    public Member postOwner;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
-
-    @Column(nullable = false,columnDefinition = "text",  length = 10000)
+    @Column(nullable = false, columnDefinition = "text", length = 10000)
     private String postBody;
-    @Column(nullable = false,columnDefinition = "varchar(200)",  length = 200)
-    private String postOwner;
-
     private LocalDateTime createdOn;
     private LocalDateTime updatedOn;
     private boolean edited;
-
-
-    @ManyToOne(fetch = FetchType.LAZY, optional = false, cascade = CascadeType.ALL, targetEntity = Channel.class)
-    public Channel channel;
 
 }

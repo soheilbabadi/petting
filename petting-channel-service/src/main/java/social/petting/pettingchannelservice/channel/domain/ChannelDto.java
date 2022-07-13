@@ -34,6 +34,4 @@ public class ChannelDto implements Serializable {
     private LocalDateTime channelCreatedOn;
 
 
-
-
 }

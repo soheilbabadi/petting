@@ -20,9 +20,12 @@ public class Member implements Serializable {
 
     @Serial
     private static final long serialVersionUID = -1461729640517599650L;
-
-
+    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "members", cascade = CascadeType.ALL, targetEntity = Channel.class)
+    public List<Channel> channels;
+    @OneToOne(fetch = FetchType.LAZY, optional = false, cascade = CascadeType.ALL, targetEntity = Post.class)
+    public Post post;
     @Id
+    @Column(nullable = false, columnDefinition = "varchar(32)", length = 32)
     private String username;
     @Column(nullable = false, columnDefinition = "varchar(100)", length = 100)
     private String firstName;
@@ -30,7 +33,4 @@ public class Member implements Serializable {
     private String lastName;
     @Column(nullable = false, columnDefinition = "varchar(300)", length = 300)
     private String avatarUri;
-
-    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "members", cascade = CascadeType.ALL, targetEntity = Channel.class)
-    public List<Channel> channels;
 }

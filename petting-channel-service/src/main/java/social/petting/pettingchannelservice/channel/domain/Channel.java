@@ -20,26 +20,28 @@ public class Channel implements Serializable {
 
     @Serial
     private static final long serialVersionUID = -1733980227130679610L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     @Column(nullable = false, unique = true, length = 100)
     private String channelName;
-    @Column(nullable = false, unique = true, length = 500,columnDefinition = "varchar(500)")
+    @Column(nullable = false, unique = true, length = 500, columnDefinition = "varchar(500)")
     private String channelDescription;
-    @OneToOne(fetch = FetchType.LAZY, optional = false, cascade = CascadeType.ALL, targetEntity = Member.class)
-    private Member channelOwner;
-
 
     private String channelType;
     private String channelStatus;
-
     private LocalDateTime createdOn;
     private LocalDateTime updatedOn;
+
+    @OneToOne(fetch = FetchType.LAZY, optional = false, cascade = CascadeType.ALL, targetEntity = Member.class)
+    private Member channelOwner;
+
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, targetEntity = Member.class)
+    public List<Member> members;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "channel", cascade = CascadeType.ALL, targetEntity = Post.class)
     public List<Post> posts;
 
-    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, targetEntity = Member.class)
-        public List<Member> members;
+
 }

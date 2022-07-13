@@ -47,7 +47,7 @@ public class ChannelController {
 
     @ExceptionHandler(ConstraintDeclarationException.class)
     public ResponseEntity handleConstraintDeclarationException(ConstraintViolationException e) {
-        List<String> error=new ArrayList<>(e.getConstraintViolations().size());
+        List<String> error = new ArrayList<>(e.getConstraintViolations().size());
         e.getConstraintViolations().forEach(violation -> error.add(violation.getPropertyPath() + ":" + violation.getMessage()));
         return new ResponseEntity(error, HttpStatus.BAD_REQUEST);
     }

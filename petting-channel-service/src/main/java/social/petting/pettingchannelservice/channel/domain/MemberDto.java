@@ -5,7 +5,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.List;
@@ -19,11 +18,9 @@ public class MemberDto implements Serializable {
 
     @Serial
     private static final long serialVersionUID = -2283832929683050507L;
-
+    public List<Channel> channels;
     private String username;
     private String firstName;
     private String lastName;
     private String avatarUri;
-
-    public List<Channel> channels;
 }

@@ -20,16 +20,15 @@ public class PostDto implements Serializable {
 
     @Serial
     private static final long serialVersionUID = -1393004843828180207L;
-
+    @NotEmpty(message = "Channel is required")
+    public long channelId;
     private long id;
     @NotBlank(message = "Post body is required")
     private String postBody;
     @NotEmpty(message = "Post owner is required")
     private String postOwner;
+    private String ownerAvatarUri;
     private LocalDateTime updatedOn;
     private LocalDateTime createdOn;
     private boolean edited;
-
-    @NotEmpty(message = "Channel is required")
-    public long channelId;
 }

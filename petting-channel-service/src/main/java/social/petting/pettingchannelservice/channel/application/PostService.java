@@ -9,7 +9,6 @@ public interface PostService {
     List<PostDto> findByPostOwner(String postOwner);
 
 
-
     @Transactional
     long createPost(PostDto postDto);
 
