@@ -8,8 +8,8 @@ import java.util.List;
 
 public interface PostRepository extends JpaRepository<Post, Long> {
 
-    List<Post> findByPostOwner(String postOwner);
-    List<Post> findByPostType(String postType);
-    List<Post> findByChannel(Channel channel);
-    List<Post> findByPostOwnerAndChannel(String postOwner,Channel channel);
+    Iterable<Post> findByPostOwner(String postOwner);
+
+    Iterable<Post> findByChannel(Channel channel);
+    Iterable<Post> findByPostOwnerAndChannel(String postOwner,Channel channel);
 }

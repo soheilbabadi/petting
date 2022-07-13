@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 @Transactional(isolation = Isolation.SERIALIZABLE)
 @Service
-public class PostServiceImpl {
+public class PostServiceImpl implements PostService {
 
     @Autowired
     private PostRepository postRepository;
@@ -25,6 +25,7 @@ public class PostServiceImpl {
     private ChannelRepository channelRepository;
 
 
+    @Override
     public List<PostDto> findByPostOwner(String postOwner) {
         var modelList = postRepository.findByPostOwner(postOwner);
         var dtoList = new ArrayList<PostDto>();
@@ -37,19 +38,10 @@ public class PostServiceImpl {
         return dtoList;
     }
 
-    public List<PostDto> findByPostType(String postType) {
-        var modelList = postRepository.findByPostType(postType);
-        var dtoList = new ArrayList<PostDto>();
-
-        for (var post : modelList) {
-            var item = new PostDto();
-            BeanUtils.copyProperties(post, item);
-            dtoList.add(item);
-        }
-        return dtoList;
-    }
 
 
+
+    @Override
     @Transactional
     public long createPost(PostDto postDto) {
         var post = copyProperty(postDto);
@@ -67,6 +59,7 @@ public class PostServiceImpl {
         return post.getId();
     }
 
+    @Override
     public long updatePost(PostDto postDto) {
         var post = postRepository.findById(postDto.getId())
                 .orElseThrow(() -> new RuntimeException("Post not found"));
@@ -79,6 +72,7 @@ public class PostServiceImpl {
         return post.getId();
     }
 
+    @Override
     public long deletePost(long id) {
         postRepository.deleteById(id);
         return 1;

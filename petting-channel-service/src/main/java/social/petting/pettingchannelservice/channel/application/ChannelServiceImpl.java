@@ -22,7 +22,7 @@ public class ChannelServiceImpl implements ChannelService {
 
     @Override
     public List<ChannelDto> findByChannelNameContaining(String channelName) {
-        var modelList = channelRepository.findByChannelNameContainingOrderByChannelUpdatedOnDesc(channelName);
+        var modelList = channelRepository.findByChannelNameContaining(channelName);
         var dtoList = new ArrayList<ChannelDto>();
 
         for (var channel : modelList) {
@@ -84,7 +84,7 @@ public class ChannelServiceImpl implements ChannelService {
 
     @Override
     public List<ChannelDto> findByChannelOwner(String channelOwner) {
-        var modelList = channelRepository.findByChannelOwnerOrderByChannelUpdatedOnDesc(channelOwner);
+        var modelList = channelRepository.findByChannelOwner(channelOwner);
         var dtoList = new ArrayList<ChannelDto>();
 
         for (var channel : modelList) {
@@ -97,7 +97,7 @@ public class ChannelServiceImpl implements ChannelService {
 
     @Override
     public List<ChannelDto> findByChannelType(String channelType) {
-        var modelList = channelRepository.findByChannelTypeOrderByChannelUpdatedOnDesc(channelType);
+        var modelList = channelRepository.findByChannelType(channelType);
         var dtoList = new ArrayList<ChannelDto>();
 
         for (var channel : modelList) {
@@ -110,7 +110,7 @@ public class ChannelServiceImpl implements ChannelService {
 
     @Override
     public List<ChannelDto> findByChannelStatus(String channelStatus) {
-        var modelList = channelRepository.findByChannelStatusOrderByChannelUpdatedOnDesc(channelStatus);
+        var modelList = channelRepository.findByChannelStatus(channelStatus);
         var dtoList = new ArrayList<ChannelDto>();
 
         for (var channel : modelList) {

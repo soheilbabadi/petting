@@ -9,12 +9,12 @@ import java.util.List;
 @Repository
 public interface ChannelRepository extends JpaRepository<Channel, Long> {
 
-    List<Channel> findByChannelNameContainingOrderByChannelUpdatedOnDesc(String channelName);
+    Iterable<Channel> findByChannelNameContaining(String channelName);
 
-    List<Channel> findByChannelStatusOrderByChannelUpdatedOnDesc(String channelStatus);
+    Iterable<Channel> findByChannelStatus(String channelStatus);
 
-    List<Channel> findByChannelOwnerOrderByChannelUpdatedOnDesc(String channelOwner);
+    Iterable<Channel> findByChannelOwner(String channelOwner);
 
-    List<Channel> findByChannelTypeOrderByChannelUpdatedOnDesc(String channelOwner);
+    Iterable<Channel> findByChannelType(String channelOwner);
 
 }
