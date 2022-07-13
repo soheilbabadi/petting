@@ -31,8 +31,10 @@ public class Channel implements Serializable {
 
     private String channelType;
     private String channelStatus;
+    private String avatarUri;
     private LocalDateTime createdOn;
     private LocalDateTime updatedOn;
+
 
     @OneToOne(fetch = FetchType.LAZY, optional = false, cascade = CascadeType.ALL, targetEntity = Member.class)
     private Member channelOwner;

@@ -31,7 +31,7 @@ public class ChannelDto implements Serializable {
     private String channelStatus;
 
     @Past(message = "Created on date must be in the past")
-    private LocalDateTime channelCreatedOn;
+    private LocalDateTime createdOn;
 
 
 }
