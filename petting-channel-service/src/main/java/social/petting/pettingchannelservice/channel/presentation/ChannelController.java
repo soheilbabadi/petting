@@ -5,6 +5,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import social.petting.pettingchannelservice.channel.domain.ChannelDto;
 
+import javax.validation.ConstraintDeclarationException;
+
 @RestController
 @RequestMapping("/channel")
 public class ChannelController {
@@ -39,4 +41,8 @@ public class ChannelController {
         return new ResponseEntity(HttpStatus.OK);
     }
 
+    @ExceptionHandler(ConstraintDeclarationException.class)
+    public ResponseEntity handleConstraintDeclarationException(ConstraintDeclarationException e) {
+        return new ResponseEntity(e.getMessage(), HttpStatus.BAD_REQUEST);
+    }
 }
